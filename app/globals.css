@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #050505; /* Obsidian Default */
+  --color-foreground: #E5E4E2; /* Platinum Default */
+
+  --color-obsidian: #050505;
+  --color-obsidian-surface: #0F1115;
+  
+  --color-wealth-gold: #D4AF37;
+  --color-wealth-gold-light: #F1D77E;
+  --color-wealth-gold-dark: #A68625;
+  
+  --color-platinum: #E5E4E2;
+  --color-platinum-dark: #A0A0A0;
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+  
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--color-obsidian);
+  color: var(--color-platinum);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+@utility container-custom {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 1400px;
+}
