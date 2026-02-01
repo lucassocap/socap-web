@@ -104,8 +104,9 @@ export default async function ProjectPage({ params }: PageProps) {
                 <div className="container mx-auto px-6 max-w-5xl">
 
                     {/* Render Visualization if available */}
+                    {/* Render Visualization if available */}
                     {Visualization && (
-                        <div className="mb-24">
+                        <div className="mb-24 hidden md:block">
                             <div className="flex items-center justify-between mb-8">
                                 <h2 className="text-zinc-500 font-mono text-xs uppercase tracking-widest">Protocol Visualization</h2>
                                 <div className="h-[1px] flex-1 bg-white/10 ml-4" />

@@ -40,7 +40,7 @@ export function Navbar() {
         >
             <div className="container mx-auto px-6 max-w-[1400px] flex items-center justify-between">
                 {/* Logo */}
-                <Link href="/" className="group relative z-50 flex items-center gap-3">
+                <Link href="/" className="group relative z-[70] flex items-center gap-3">
                     <div className="relative w-10 h-10 transition-opacity duration-300 hover:opacity-80">
                         <img
                             src="/images/socap-logo-white.png"
@@ -79,7 +79,7 @@ export function Navbar() {
 
                 {/* Mobile Menu Toggle */}
                 <button
-                    className="md:hidden z-50 text-white"
+                    className="md:hidden z-[70] text-white"
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 >
                     {isMobileMenuOpen ? <X /> : <Menu />}
@@ -89,7 +89,7 @@ export function Navbar() {
             {/* Mobile Menu */}
             <div
                 className={cn(
-                    "fixed inset-0 bg-black z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-300 md:hidden",
+                    "fixed inset-0 bg-black z-[60] flex flex-col items-center justify-center gap-8 transition-transform duration-300 md:hidden",
                     isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
                 )}
             >
