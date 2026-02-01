@@ -123,7 +123,7 @@ export function RefineryDeepDive() {
                 <div className="flex justify-between items-start z-20">
                     <div>
                         <h3 className="text-zinc-500 font-mono text-xs uppercase tracking-widest mb-2">Stochastic Margin Simulation</h3>
-                        <h2 className="text-3xl font-black text-white">The "Brutal" Model</h2>
+                        <h2 className="text-3xl font-black text-white">Montecarlo Simulation</h2>
                     </div>
 
                     {/* Discrete Event Indicator */}
