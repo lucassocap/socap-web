@@ -54,7 +54,7 @@ export function Navbar() {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <div className="hidden md:flex items-center gap-12">
+                <div className="hidden lg:flex items-center gap-12">
                     {navItems.map((item) => (
                         <Link
                             key={item.label}
@@ -67,7 +67,7 @@ export function Navbar() {
                 </div>
 
                 {/* CTA Button */}
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                     <Link href="/contact">
                         <button className="group relative px-6 py-2 bg-white text-black text-xs font-black tracking-widest hover:bg-wealth-gold transition-all duration-300">
                             <span className="relative flex items-center gap-2">
@@ -79,7 +79,7 @@ export function Navbar() {
 
                 {/* Mobile Menu Toggle */}
                 <button
-                    className="md:hidden z-[70] text-white"
+                    className="lg:hidden z-[70] text-white"
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 >
                     {isMobileMenuOpen ? <X /> : <Menu />}
@@ -89,7 +89,7 @@ export function Navbar() {
             {/* Mobile Menu */}
             <div
                 className={cn(
-                    "fixed inset-0 bg-black z-[60] flex flex-col items-center justify-center gap-8 transition-transform duration-300 md:hidden",
+                    "fixed inset-0 bg-black z-[60] flex flex-col items-center justify-center gap-8 transition-transform duration-300 lg:hidden",
                     isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
                 )}
             >
