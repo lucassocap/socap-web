@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     siteName: "Socap Corp",
     images: [
       {
-        url: "/images/portfolio/refineria-hero.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Socap Corp - Operational Architecture",
+        alt: "Socap Corp - Business Consulting Miami",
       },
     ],
     locale: "en_US",
