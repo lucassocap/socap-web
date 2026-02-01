@@ -28,8 +28,8 @@ export default function ContactPage() {
                     <ContactForm />
 
                     <div className="mt-12 text-center text-zinc-600 font-mono text-xs tracking-widest">
-                        <p>HQ: MIAMI, FL // GLOBAL OPERATIONS</p>
-                        <p>E: CAPITAL@SOCAPCORP.COM</p>
+                        <p>HQ: 2645 EXECUTIVE PARK DR, WESTON, FL 33331</p>
+                        <p>P: 844.466.2665 // E: CAPITAL@SOCAPCORP.COM</p>
                     </div>
                 </div>
             </section>
