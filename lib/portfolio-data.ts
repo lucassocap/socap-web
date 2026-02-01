@@ -32,14 +32,14 @@ export const projects: Project[] = [
         slug: "refineria-di-korsou",
         category: "Infrastructure & Financial Engineering",
         title: "Refineria Isla (Curacao)",
-        metric: "335,000 BPD Capacity Audit",
-        desc: "We led the technical and financial bid for the 335k bpd Refineria Isla in Schottegat Harbor. Coordinated 30+ engineers for a full technical audit and defined the restart execution plan.",
+        metric: "320,000 BPD Capacity Audit",
+        desc: "We led the technical and financial bid for the 320,000 bpd Refineria Isla in Schottegat Harbor. Coordinated 30+ engineers for a full technical audit and defined the restart execution plan.",
         icon: Droplets,
         image: "/images/portfolio/refineria-isla-schottegat.png",
         content: {
-            challenge: "Winning the operation of the massive 335,000 BPD Refineria Isla in Curacao's Schottegat Harbor required supreme technical command. The facility, owned by RdK, was dormant and required a comprehensive technical audit to define the restart parameters.",
+            challenge: "Winning the operation of the massive 320,000 BPD Refineria Isla in Curacao's Schottegat Harbor required supreme technical command. The facility, owned by RdK, was dormant and required a comprehensive technical audit to define the restart parameters.",
             solution: "We executed a massive technical lift. We coordinated 30+ specialized engineers to audit every unit of the Schottegat complex. We developed the complete execution plan for the start-up, encompassing technical refurbishment, supply chain logistics, and a rigorous financial model to stress-test margins.",
-            result: "The technical audit became the benchmark. We delivered a defensive, high-precision operational roadmap that quantified the exact investment needed to bring the 335k BPD capacity back online, positioning the consortium as the only technically viable operator."
+            result: "The technical audit became the benchmark. We delivered a defensive, high-precision operational roadmap that quantified the exact investment needed to bring the 320k BPD capacity back online, positioning the consortium as the only technically viable operator."
         },
         specs: [
             "RdK Vendor Ecosystem Orchestration",
@@ -47,21 +47,21 @@ export const projects: Project[] = [
             "Refinery Start-up Execution Plan",
             "Detailed Technical Audit & Assessment",
             "Dynamic Financial Modeling (Stress Testing)",
-            "335k BPD Production Curve Analysis"
+            "320k BPD Production Curve Analysis"
         ]
     },
     {
         slug: "pan-american-energy",
         category: "Exploration Strategy",
-        title: "Pan-American Energy",
+        title: "Super Magma Energy",
         metric: "$60MM Investment Deployment",
-        desc: "From Geophysics to Production. We led the evaluation of 20,000 BPD assets, structuring the technical case for a $60 Million USD capital deployment.",
+        desc: "Valuation of a top 10 Argentine oil company for acquisition. We analyzed the political risk and advised against the deal. Time proved us right.",
         icon: Layers,
         image: "/images/portfolio/pan-american-hero.png", // Custom Generated Field Operations
         content: {
-            challenge: "The client needed to sanction a major capital project in a complex play. The decision required a flawless link between subsurface seismic data and economic reality. The target: De-risk a $60 Million USD investment campaign to capture 10,000 - 20,000 BPD of production.",
-            solution: "We implemented a classic 'Exploration to Appraisal' workflow. We interpreted 2D/3D seismic data to identify prospects. We designed the exploration drilling campaign and modeled the reservoir parameters. This technical rigor formed the basis of the Final Investment Decision (FID).",
-            result: "The investment was approved. By proving the subsurface case, we unlocked $60MM in CAPEX. The campaign successfully delineated the field, meeting the 10,000 - 20,000 BPD production corridor and securing the asset's long-term value."
+            challenge: "Our client, a major Oil Fund, considered acquiring one of Argentina's top 10 oil companies. The asset was technically sound, but the political horizon was volatile. The challenge was not just subsurface valuation, but a deep-spectrum risk assessment of the upcoming election cycle.",
+            solution: "We performed a rigorous valuation but added a 'Political Beta' coefficient. We forecasted the impact of a likely regime change on taxation and export tariffs. Our model flashed red. We advised a hard 'No-Go' despite the attractive entry price.",
+            result: "We saved the fund millions. We predicted the victory of the Fernandez administration, which subsequently destabilized the national economy ('Cagaron el país'). The asset's value collapsed post-election. Sometimes the best deal is the one you don't do."
         },
         specs: [
             "Seismic Acquisition & Processing",
@@ -76,13 +76,13 @@ export const projects: Project[] = [
         category: "Operational Architecture",
         title: "Expert Network",
         metric: "$5MM Cashflow Released",
-        desc: "A $60MM/year restoration giant. We redefined the chaotic, integrated ERP/CRM, and deployed Monte Carlo models to predict cash. Impact: AR slashed from 180 to 90 days.",
+        desc: "A $20MM/year restoration giant. We received the company with no Sales or Ops teams. We rebuilt the entire operation and restored stability in 1 week.",
         icon: Network,
         image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop", // Modern Team Collaboration
         content: {
-            challenge: "A $60MM annual revenue restoration company was drowning in its own volume. Accounts Receivable (AR) from insurance carriers averaged 180 days, locking up massive capital. Sales were growing, but operations were breaking under a 25% surge in leads. The business was blind.",
-            solution: "We architected a total digital transformation. We implemented a custom ERP and CRM ecosystem to automate operations. Crucially, we deployed a Monte Carlo simulation model (KPIs) to predict cash flow variability and optimize decision-making under uncertainty.",
-            result: "The results were binary. AR collapsed from 180 days to 90 days, instantly releasing $5 Million USD in working capital. Lead processing capacity increased by 25% with zero client churn. We didn't just fix it; we installed a new brain."
+            challenge: "A $20MM annual revenue restoration company faced an existential crisis. The Sales team, Operations team, and key inspectors had all resigned simultaneously. The engine had stopped. The company was drifting without a crew in high seas.",
+            solution: "It was a rescue mission. We inserted an interim command structure immediately. We architected a streamlined standard operating procedure (SOP) to bypass the missing personnel and aggressively recruited/trained a new task force. We didn't just consult; we took the wheel.",
+            result: "Operations were fully restored in 1 week. We stabilized the ship, cleared the backlog, and then deployed the permanent ERP systems that slashed AR from 180 to 90 days. From total collapse to record efficiency."
         },
         specs: [
             "Custom CRM & ERP Ecosystem",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
         content: {
             challenge: "Medialfa had the technology (MRI/CT) but lacked the scale. Operating 30+ diverse locations across Latin America created operational blindness. They needed a unified franchise model and a valuations framework to structure their massive 4x growth trajectory.",
             solution: "We deployed a centralized ERP to control operations across all 30+ units. We built a robust Business Valuation Model to standardize the franchise offering. We structured the entire expansion protocol, turning disparate clinics into a coherent, scalable network.",
-            result: "The network expanded 4x in record time. The valuation model allowed for precise capital raising and franchisee onboarding. We didn't just manage machines; we engineered a medical empire."
+            result: "The network expanded 4x in record time, opening markets in 4 new countries in just 1 year. This was powered by our innovative Shared Revenue Model (RESCOM), which we standardized and replicated rapidly. We didn't just manage machines; we engineered a medical empire."
         },
         specs: [
             "Franchise Expansion Model (4x Growth)",

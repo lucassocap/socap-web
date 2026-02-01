@@ -54,8 +54,8 @@ export function HeroSlider() {
                         className="absolute inset-0 bg-cover bg-center"
                         style={{ backgroundImage: `url(${slides[currentSlide].image})` }}
                     />
-                    <div className="absolute inset-0 bg-black/60" /> {/* Dark overlay */}
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_black_100%)] opacity-80" />
+                    <div className="absolute inset-0 bg-black/30" /> {/* Dark overlay */}
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_black_100%)] opacity-50" />
                 </motion.div>
             </AnimatePresence>
 

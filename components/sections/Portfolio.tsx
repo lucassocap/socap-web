@@ -27,12 +27,12 @@ export function Portfolio() {
                         <Link href={`/portfolio/${project.slug}`} key={i} className="group relative h-[500px] bg-obsidian overflow-hidden border border-white/5 hover:z-10 transition-all duration-500 cursor-pointer">
                             {/* Image Background - More Color now */}
                             <div
-                                className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-100"
+                                className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110 opacity-85 group-hover:opacity-100"
                                 style={{ backgroundImage: `url(${project.image})` }}
                             />
 
                             {/* Gradient Overlay */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent group-hover:via-black/80 transition-all duration-500" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent group-hover:via-black/80 transition-all duration-500" />
 
                             <div className="absolute inset-0 p-10 flex flex-col justify-end">
                                 <div className="mb-auto transform translate-y-[-20px] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
