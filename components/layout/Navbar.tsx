@@ -30,7 +30,6 @@ export function Navbar() {
     ];
 
     return (
-    return (
         <>
             <nav
                 className={cn(
