@@ -53,13 +53,15 @@ export default function RootLayout({
               "description": "Operational architecture and financial engineering for the ambitious. We design dominance.",
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Miami",
+                "streetAddress": "2645 Executive Park Drive",
+                "addressLocality": "Weston",
                 "addressRegion": "FL",
+                "postalCode": "33331",
                 "addressCountry": "US"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "",
+                "telephone": "+1-844-466-2665",
                 "contactType": "customer service",
                 "email": "info@socapcorp.com"
               },

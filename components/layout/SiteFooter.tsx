@@ -49,7 +49,11 @@ export function SiteFooter() {
                         <ul className="space-y-4">
                             <li className="flex items-center gap-3 text-zinc-500 text-sm">
                                 <MapPin className="w-4 h-4 text-wealth-gold" />
-                                <span className="text-zinc-400">Miami, FL</span>
+                                <span className="text-zinc-400">Weston, FL</span>
+                            </li>
+                            <li className="flex items-center gap-3 text-zinc-500 text-sm">
+                                <span className="w-4 h-4 flex items-center justify-center text-wealth-gold font-bold text-xs">P.</span>
+                                <span className="text-zinc-400">844.466.2665</span>
                             </li>
                             <li className="flex items-center gap-3 text-zinc-500 hover:text-white transition-colors cursor-pointer text-sm">
                                 <Mail className="w-4 h-4 text-wealth-gold" />
