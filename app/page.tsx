@@ -3,7 +3,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { HeroSlider } from "@/components/sections/HeroSlider";
-import { BrandRibbon } from "@/components/sections/BrandRibbon";
+
 import { Portfolio } from "@/components/sections/Portfolio";
 import { TechStack } from "@/components/sections/TechStack";
 import { OurPeople } from "@/components/sections/OurPeople";
@@ -18,8 +18,7 @@ export default function Home() {
 
       <HeroSlider />
 
-      {/* Brand Ribbon */}
-      <BrandRibbon />
+
 
       {/* Intro / Philosophy */}
       <section className="py-32 bg-obsidian-surface border-b border-white/5">
