@@ -21,7 +21,7 @@ export function SiteFooter() {
                                 />
                             </div>
                             <span className="font-mono text-3xl font-black tracking-tighter text-white group-hover:text-wealth-gold transition-colors duration-500">
-                                SOCAP<span className="text-zinc-600 group-hover:text-white transition-colors duration-500">.CORP</span>
+                                SOCAP<span className="text-zinc-600 group-hover:text-white transition-colors duration-500"> CORP</span>
                             </span>
                         </Link>
                         <p className="text-zinc-500 max-w-sm text-lg leading-relaxed font-light mb-8">
@@ -53,7 +53,7 @@ export function SiteFooter() {
                             </li>
                             <li className="flex items-center gap-3 text-zinc-500 hover:text-white transition-colors cursor-pointer text-sm">
                                 <Mail className="w-4 h-4 text-wealth-gold" />
-                                <span className="text-zinc-400">capital@socapcorp.com</span>
+                                <span className="text-zinc-400">info@socapcorp.com</span>
                             </li>
                         </ul>
                     </div>

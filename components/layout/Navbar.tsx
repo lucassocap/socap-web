@@ -49,7 +49,7 @@ export function Navbar() {
                         />
                     </div>
                     <span className="font-mono text-xl font-black tracking-tighter text-white group-hover:text-wealth-gold transition-colors duration-500">
-                        SOCAP<span className="text-zinc-600 group-hover:text-white transition-colors duration-500">.CORP</span>
+                        SOCAP<span className="text-zinc-600 group-hover:text-white transition-colors duration-500"> CORP</span>
                     </span>
                 </Link>
 

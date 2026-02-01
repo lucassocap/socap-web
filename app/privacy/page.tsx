@@ -53,7 +53,7 @@ export default function PrivacyPage() {
 
                     <h3>5. Contact</h3>
                     <p>
-                        For inquiries regarding data retention or deletion, contact our compliance officer at capital@socapcorp.com.
+                        For inquiries regarding data retention or deletion, contact our compliance officer at info@socapcorp.com.
                     </p>
 
                     <hr className="border-white/10 my-12" />
