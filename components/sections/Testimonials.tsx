@@ -5,25 +5,25 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
     {
-        client: "Joe",
-        company: "Expert Network",
-        role: "Founder",
-        quote: "We were drowning in operational noise. Socap didn't just advise; they built the machine. They installed a collections system that recovered 30% of our revenue in 60 days. It wasn't consulting; it was a rescue mission.",
-        highlight: "Operational & Sales System"
-    },
-    {
-        client: "Chris",
-        company: "DMS Energy",
-        role: "IT Manager",
-        quote: "I've worked with vendors for 20 years. These are the best developers I've ever seen. Speed, precision, and zero fluff. They delivered a complex energy infrastructure platform in weeks, not months.",
-        highlight: "Technical Precision"
-    },
-    {
         client: "Andres",
         company: "La Rosa",
         role: "Founder",
-        quote: "I never had cash in my pocket. I was always reinvesting blindly. Socap structured my liquidity. Now I know exactly where every dollar is, and for the first time, I'm taking real profit home.",
-        highlight: "Cash Flow Transformation"
+        quote: "We were practically bankrupt during the pandemic. Socap didn't just advise; they intervened. They restructured our high-interest debt, optimized our inventory protocols, and professionalized our management. For the first time, we aren't just selling; we are maximizing real profit.",
+        highlight: "Turnaround & Optimization"
+    },
+    {
+        client: "Founders",
+        company: "MYS Eyewear",
+        role: "Executive Team",
+        quote: "A pivotal partner. They resolved our credit gridlock, built a solid business plan, and facilitated access to investors who believed in our vision. Socap didn't just consult; they architected our financial credibility.",
+        highlight: "Capital Access & Financing"
+    },
+    {
+        client: "Management",
+        company: "R&E Carriers",
+        role: "Directors",
+        quote: "We had 10 years in the market but didn't know our true potential. Socap's financial analysis was a revelation. They gave us a clear vision of our business and a roadmap to scale. We finally have a dashboard, not just a steering wheel.",
+        highlight: "Strategic Vision"
     },
     {
         client: "Carlos",
