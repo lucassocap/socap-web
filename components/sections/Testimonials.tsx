@@ -5,23 +5,23 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
     {
-        client: "Andres",
+        client: "Jose Pacheco",
         company: "La Rosa",
         role: "Founder",
         quote: "We were practically bankrupt during the pandemic. Socap didn't just advise; they intervened. They restructured our high-interest debt, optimized our inventory protocols, and professionalized our management. For the first time, we aren't just selling; we are maximizing real profit.",
         highlight: "Turnaround & Optimization"
     },
     {
-        client: "Founders",
+        client: "Solmary Roman",
         company: "MYS Eyewear",
-        role: "Executive Team",
+        role: "Founder",
         quote: "A pivotal partner. They resolved our credit gridlock, built a solid business plan, and facilitated access to investors who believed in our vision. Socap didn't just consult; they architected our financial credibility.",
         highlight: "Capital Access & Financing"
     },
     {
-        client: "Management",
+        client: "Nelson Alvarez",
         company: "R&E Carriers",
-        role: "Directors",
+        role: "Director",
         quote: "We had 10 years in the market but didn't know our true potential. Socap's financial analysis was a revelation. They gave us a clear vision of our business and a roadmap to scale. We finally have a dashboard, not just a steering wheel.",
         highlight: "Strategic Vision"
     },

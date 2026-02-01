@@ -40,7 +40,7 @@ export function SiteFooter() {
                             <li><Link href="/about" className="text-zinc-500 hover:text-white transition-colors text-sm tracking-wide">Manifesto</Link></li>
                             <li><Link href="/services" className="text-zinc-500 hover:text-white transition-colors text-sm tracking-wide">Capabilities</Link></li>
                             <li><Link href="/portfolio/refineria-di-korsou" className="text-zinc-500 hover:text-white transition-colors text-sm tracking-wide">Case Studies</Link></li>
-                            <li><Link href="/faq" className="text-zinc-500 hover:text-white transition-colors text-sm tracking-wide">F.A.Q.</Link></li>
+                            <li><Link href="/faq" className="text-zinc-500 hover:text-white transition-colors text-sm tracking-wide">Q&A</Link></li>
                         </ul>
                     </div>
 

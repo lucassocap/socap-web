@@ -26,7 +26,7 @@ export function Navbar() {
         { label: "Philosophy", href: "/philosophy" },
         { label: "Services", href: "/services" },
         { label: "About", href: "/about" },
-        { label: "FAQ", href: "/faq" },
+        { label: "Q&A", href: "/faq" },
     ];
 
     return (
