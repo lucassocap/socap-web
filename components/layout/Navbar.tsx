@@ -60,7 +60,7 @@ export function Navbar() {
                             <Link
                                 key={item.label}
                                 href={item.href}
-                                className="text-xs font-bold tracking-[0.2em] text-zinc-500 hover:text-white transition-colors uppercase"
+                                className="text-xs font-bold tracking-[0.2em] text-white hover:text-wealth-gold transition-colors uppercase"
                             >
                                 {item.label}
                             </Link>
