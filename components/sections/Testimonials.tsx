@@ -26,7 +26,7 @@ const testimonials = [
         highlight: "Strategic Vision"
     },
     {
-        client: "Carlos",
+        client: "Derian Londono",
         company: "Fitomedics",
         role: "Founder",
         quote: "Everyone told me the US market was a fortress—too difficult, too expensive. With Socap, it was easy. They engineered the entry strategy, and we broke through. We are now scaling purely on their architecture.",
