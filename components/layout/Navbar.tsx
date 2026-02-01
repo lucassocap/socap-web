@@ -113,5 +113,4 @@ export function Navbar() {
             </div>
         </>
     );
-    );
 }
