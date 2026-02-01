@@ -9,26 +9,28 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://socapcorp.com'),
   title: "Socap Corp | Business Consulting Miami & Financial Engineering",
   description: "Premier business consulting firm in Miami. We design dominance through operational architecture and financial engineering.",
   keywords: ["Business Consulting Miami", "Miami Business Consultant", "Strategic Capital", "Financial Engineering", "Restructuring", "Private Equity Florida"],
   openGraph: {
-    title: "Socap Corp | Strategic Capital & Financial Engineering",
-    description: "Operational architecture and financial engineering for the ambitious.",
+    title: "Socap Corp | Business Consulting Miami",
+    description: "Operational architecture and financial engineering for the ambitious. We design dominance.",
     url: "https://socapcorp.com",
     siteName: "Socap Corp",
     images: [
       {
-        url: "/images/socap-logo-white.png", // utilizing the logo as a placeholder OG image if no specific banner exists
+        url: "/images/socap-logo-white.png",
         width: 800,
         height: 600,
+        alt: "Socap Corp Logo",
       },
     ],
     locale: "en_US",
     type: "website",
   },
   icons: {
-    icon: "/images/socap-logo-white.png",
+    icon: "/icon.png",
   },
 };
 
