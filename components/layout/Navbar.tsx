@@ -60,7 +60,7 @@ export function Navbar() {
                             <Link
                                 key={item.label}
                                 href={item.href}
-                                className="text-xs font-bold tracking-[0.2em] text-white hover:text-wealth-gold transition-colors uppercase"
+                                className="text-sm font-bold tracking-[0.2em] text-white hover:text-wealth-gold transition-colors uppercase"
                             >
                                 {item.label}
                             </Link>
@@ -70,7 +70,7 @@ export function Navbar() {
                     {/* CTA Button */}
                     <div className="hidden lg:block">
                         <Link href="/contact">
-                            <button className="group relative px-6 py-2 bg-wealth-gold text-black text-xs font-black tracking-widest hover:bg-white transition-all duration-300">
+                            <button className="group relative px-6 py-2 bg-wealth-gold text-black text-sm font-black tracking-widest hover:bg-white transition-all duration-300">
                                 <span className="relative flex items-center gap-2">
                                     INITIATE <ArrowUpRight className="w-4 h-4" />
                                 </span>
