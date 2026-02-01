@@ -9,9 +9,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Socap Corp | Strategic Capital & Financial Engineering",
-  description: "Operational architecture and financial engineering for the ambitious. We design dominance.",
-  keywords: ["Management Consulting", "Private Equity", "Business Valuation", "Restructuring", "Miami", "Financial Engineering"],
+  title: "Socap Corp | Business Consulting Miami & Financial Engineering",
+  description: "Premier business consulting firm in Miami. We design dominance through operational architecture and financial engineering.",
+  keywords: ["Business Consulting Miami", "Miami Business Consultant", "Strategic Capital", "Financial Engineering", "Restructuring", "Private Equity Florida"],
   openGraph: {
     title: "Socap Corp | Strategic Capital & Financial Engineering",
     description: "Operational architecture and financial engineering for the ambitious.",
