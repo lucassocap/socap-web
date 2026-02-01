@@ -89,8 +89,10 @@ export function Navbar() {
             {/* Mobile Menu */}
             <div
                 className={cn(
-                    "fixed inset-0 bg-black z-[60] flex flex-col items-center justify-center gap-8 transition-transform duration-300 lg:hidden",
-                    isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
+                    "fixed inset-0 bg-black z-[60] flex flex-col items-center justify-center gap-8 transition-all duration-300 lg:hidden",
+                    isMobileMenuOpen
+                        ? "translate-y-0 opacity-100 visible"
+                        : "-translate-y-full opacity-0 invisible"
                 )}
             >
                 {navItems.map((item) => (
