@@ -21,7 +21,7 @@ export function SiteFooter() {
                                 />
                             </div>
                             <span className="font-mono text-3xl font-black tracking-tighter text-white group-hover:text-wealth-gold transition-colors duration-500">
-                                SOCAP<span className="text-zinc-600 group-hover:text-white transition-colors duration-500"> CORP</span>
+                                SOCAP<span className="text-wealth-gold group-hover:text-white transition-colors duration-500"> CORP</span>
                             </span>
                         </Link>
                         <p className="text-zinc-500 max-w-sm text-lg leading-relaxed font-light mb-8">
