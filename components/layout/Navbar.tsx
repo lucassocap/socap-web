@@ -70,7 +70,7 @@ export function Navbar() {
                     {/* CTA Button */}
                     <div className="hidden lg:block">
                         <Link href="/contact">
-                            <button className="group relative px-6 py-2 bg-white text-black text-xs font-black tracking-widest hover:bg-wealth-gold transition-all duration-300">
+                            <button className="group relative px-6 py-2 bg-wealth-gold text-black text-xs font-black tracking-widest hover:bg-white transition-all duration-300">
                                 <span className="relative flex items-center gap-2">
                                     INITIATE <ArrowUpRight className="w-4 h-4" />
                                 </span>
